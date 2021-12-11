@@ -41,18 +41,3 @@ const invokeAction = async ({ action, id, name, email, phone }) => {
 };
 
 invokeAction(options);
-
-// const id = '5';
-// invokeAction('listContacts');
-
-// invokeAction({ action: 'getById', id });
-
-// const data = {
-//   name: 'Ivan Petrov',
-//   email: 'petrov@mail.com',
-//   phone: '(044) 222-7755',
-// };
-// invokeAction({ action: 'addContact', ...data });
-
-// const id = '03ca23f3-0454-4b15-825e-66e1c30c942d';
-// invokeAction({ action: 'removeContact', id });
